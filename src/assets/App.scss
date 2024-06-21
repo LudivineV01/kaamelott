@@ -1,0 +1,59 @@
+
+// ------------------------------------------------
+// IMPORTS
+@use 'reset';
+// ------------------------------------------------
+// CONTAINER
+.widget {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  padding: 0 75px;
+  background-color: #010B25;
+}
+
+.cite{
+  text-align: right;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
+.widget-content {
+  min-height: 100px;
+  color: #FFFFFF;
+  font-size: 24px;
+}
+
+// ------------------------------------------------
+// BUTTON
+.button {
+  background-image: radial-gradient(100% 100% at 50% 100%, #0738B9 0%, #031953 100%);
+  border: 1px solid rgb(255 255 255 / 0.4);
+  color: #FFFFFF;
+  font-size: 24px;
+  margin: 50px 0;
+  padding: 20px 40px;
+  border-radius: 10px;
+  cursor: pointer;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.button:hover {
+  background-position: 100% 0;
+  -o-transition: all .4s ease-in-out;
+  -webkit-transition: all .4s ease-in-out;
+  transition: all .4s ease-in-out;
+  background-image: linear-gradient(to right, #25aae1, #4481eb, #04befe, #3f86ed);
+  box-shadow: 0 4px 15px 0 rgba(65, 132, 234, 0.75);
+}
+
+
+// ------------------------------------------------
+//ASSETS
+.logo{
+  width: 35%;
+}
